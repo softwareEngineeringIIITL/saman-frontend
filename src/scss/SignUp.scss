@@ -1,0 +1,18 @@
+.sign-up {
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 120px;
+    background-image: linear-gradient( white, skyblue );
+
+    .sign-up-form {
+        max-width: 450px;
+        width: 100%;
+    }
+
+    @include phones {
+
+        .sign-up-form {
+            max-width: 300px;
+        }
+    }
+}

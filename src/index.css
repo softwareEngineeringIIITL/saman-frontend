@@ -1,0 +1,16 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #fbfbfb;
+}
+
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    background-color: #d5f3fe;
+    /* background-image: linear-gradient( white,skyblue ); */
+    min-height: 100vh;
+    position: relative;
+}
